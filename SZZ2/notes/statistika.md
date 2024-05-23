@@ -1,5 +1,27 @@
 # Statistika
 
+## **OLS Regression Results**
+
+### R-squared
+
+R-squared (koeficient determinace) udává podíl variability závislé proměnné vysvětlené nezávislými proměnnými. Hodnota blízká 1 naznačuje, že model dobře vysvětluje variabilitu závislé proměnné.
+
+### Koeficienty
+
+Koeficienty regrese jsou odhady efektů nezávislých proměnných na závislou proměnnou. Každý koeficient je doprovázen standardní chybou, t-statistikou a p-hodnotou.
+
+### P-hodnoty
+
+P-hodnoty měří statistickou významnost koeficientů regrese. Nižší p-hodnota (< 0.05) naznačuje statistickou významnost koeficientu.
+
+### Konstanta
+
+Konstanta je hodnota závislé proměnné, když jsou všechny nezávislé proměnné nulové. Interpretuje se jako intercept regresní přímky.
+
+### Diagnostické statistiky
+
+Diagnostické statistiky, jako je Durbin-Watson test nebo Jarque-Bera test, poskytují informace o předpokladech a kvalitě modelu.
+
 ## **Interval spolehlivosti**
 
 ### **Předpoklady**
