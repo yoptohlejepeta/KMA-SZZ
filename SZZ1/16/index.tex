@@ -1,0 +1,79 @@
+\documentclass{article}
+\usepackage[a4paper,width=160mm,top=25mm,bottom=25mm,bindingoffset=6mm]{geometry}
+\usepackage[czech]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{parskip}
+\usepackage{amsmath, amssymb, graphicx}
+
+\title{Celkové, průměrné a mezní veličiny, sklon a elasticita}
+\author{}
+\date{}
+
+\begin{document}
+
+\maketitle
+
+\section{Definice ekonomických funkcí}
+\textit{Zadání:} Definujte obecně funkci celkovou, průměrnou a mezní.
+\begin{itemize}
+    \item \textbf{Funkce celkových veličin} \(T_f\) reprezentuje celkovou hodnotu ekonomické veličiny (např. celkové příjmy nebo náklady) závislou na množství \(Q\).
+    $$ T_f = f(x) $$
+    \item \textbf{Funkce průměrných veličin} $A_f$ ukazuje průměrnou hodnotu ekonomické veličiny na jednotku výstupu.
+    $$ A_f = \frac{f(x)}{x} $$
+    \item \textbf{Mezní funkce} \(M_f\) popisuje změnu celkové funkce vyvolanou jednotkovou změnou v množství.
+    $$ M_f = f'(x) $$
+\end{itemize}
+
+\section{Vztahy mezi veličinami}
+\textit{Zadání:} Formulujte tvrzení o vztahu mezi celkovými, průměrnými a mezními veličinami. Naznačte odvození tvrzení, že mezní veličina protíná graf průměrné veličiny v jejím lokálním extrému.
+
+\begin{itemize}
+    \item Lokálnímu extrému $Tf$ odpovídá nulový bod $Mf$.
+    \item Inflexnímu bodu $Tf$ odpovídá lokální extrém $Mf$.
+    \item $Tf$ je konvexní právě tehdy, když $Mf$ roste.
+    \item $Tf$ je konkávní právě tehdy, když $Mf$ klesá.
+    \item $Af$ má lokální extrém právě v bodě, kde graf $Mf$ protíná graf $Af$.
+    \item $Af$ roste právě v oblasti, kde graf $Mf$ leží nad grafem $Af$.
+    \item $Af$ klesá právě v oblasti, kde graf $Mf$ leží pod grafem $Af$.
+    \item $Af$ je konstantní právě tehdy, když $Mf = Af$.
+\end{itemize}
+
+\subsection{Mezní funkce a průměrná funkce}
+Když derivujeme průměrnou funkci \( A(Q) = \frac{T(Q)}{Q} \), získáme:
+\[ A'(Q) = \frac{Q \cdot M(Q) - T(Q)}{Q^2}. \]
+Tato derivace je rovna nule, když:
+\[ Q \cdot M(Q) - T(Q) = 0, \]
+což lze přepsat jako:
+\[ M(Q) = \frac{T(Q)}{Q} = AC(Q). \]
+To znamená, že v bodech, kde průměrná funkce dosahuje lokálních extrémů, je hodnota mezní funkce \( M(Q) = T'(Q) \) rovna hodnotě průměrné funkce \( A(Q) \), a tedy mezní funkce protíná průměrnou funkci právě v těchto bodech.
+
+\section{Grafické znázornění funkcí}
+\textit{Zadání:} Vykreslete grafy funkcí celkových příjmů \(TR(Q)\) a celkových nákladů \(TC(Q)\) a jejich derivací.
+
+\textbf{Grafy:}
+% Grafy zde vložíte pomocí \includegraphics{cesta_k_souboru}
+
+\section{Analýza ekonomických indikátorů}
+\textbf{Zadání:} Matematicky a graficky určete technologické optimum, bod maximalizace zisku a bod uzavření firmy.
+
+\textbf{Vysvětlení a výpočty:}
+Technologické optimum nastává, když jsou mezní náklady \(MC(Q)\) minimální. Bod maximalizace zisku je, kde \(MR(Q) = MC(Q)\). Bod uzavření firmy je, kde celkové příjmy pokrývají proměnné náklady, ale již ne celkové náklady.
+
+\section{Elasticita a sklon funkce}
+\textbf{Zadání:} Definujte bodovou a průměrnou elasticitu. Porovnejte elasticitu s konceptem sklonu funkce.
+
+\textbf{Vysvětlení:}
+Elasticita vyjadřuje citlivost jedné proměnné na změnu druhé proměnné a je obvykle vyjádřena jako:
+\[ E_p = \frac{\Delta Q / Q}{\Delta P / P}. \]
+Sklon vyjadřuje absolutní změnu a je určen jako:
+\[ \frac{\Delta y}{\Delta x}. \]
+
+\section{Marshallův zákon poptávky a elasticity}
+\textbf{Zadání:} Analyzujte Marshallovu poptávku na statky a určete cenovou, křížovou a důchodovou elasticitu.
+
+\textbf{Vysvětlení a výpočty:}
+% Tady by byl detailní výpočet elasticity poptávky z Marshallův zákona poptávky.
+
+
+
+\end{document}
